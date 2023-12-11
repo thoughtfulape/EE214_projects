@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.srcs/sources_1/new/nand_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.srcs/sim_1/new/nand_latch_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_latch_tb
+INFO: [VRFC 10-2458] undeclared symbol Q1, assumed default net type wire [D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.srcs/sim_1/new/nand_latch_tb.v:8]
+INFO: [VRFC 10-2458] undeclared symbol Q2, assumed default net type wire [D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.srcs/sim_1/new/nand_latch_tb.v:8]

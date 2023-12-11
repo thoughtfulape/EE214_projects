@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Dec  8 19:25:28 2021
+# Process ID: 10864
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 12/requirement_3/requirement_3.runs/impl_1
+# Command line: vivado.exe -log wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source wrapper.tcl -notrace
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 12/requirement_3/requirement_3.runs/impl_1/wrapper.vdi
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 12/requirement_3/requirement_3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source wrapper.tcl -notrace

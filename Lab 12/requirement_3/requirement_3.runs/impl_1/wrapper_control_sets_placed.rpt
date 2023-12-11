@@ -1,0 +1,91 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Dec  8 19:26:14 2021
+| Host         : FishelHPLaptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file wrapper_control_sets_placed.rpt
+| Design       : wrapper
+| Device       : xc7z007s
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    13 |
+|    Minimum number of control sets                        |    13 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    53 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    13 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     5 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              59 |           26 |
+| No           | No                    | Yes                    |              20 |            6 |
+| No           | Yes                   | No                     |              34 |           10 |
+| Yes          | No                    | No                     |              14 |            4 |
+| Yes          | No                    | Yes                    |               4 |            1 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+---------------------+-------------------------------+------------------+----------------+--------------+
+|        Clock Signal        |    Enable Signal    |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------+---------------------+-------------------------------+------------------+----------------+--------------+
+|  clk_divider/clk_div_reg_0 |                     |                               |                1 |              1 |         1.00 |
+|  clk_divider/clk_div_reg_0 |                     | rnd_num/my_rsm/Q[0]           |                1 |              1 |         1.00 |
+|  c2/tc_reg_0               |                     | rnd_num/my_rsm/Q[0]           |                1 |              4 |         4.00 |
+|  clk_divider/clk_div_reg_0 | rnd_num/my_rsm/Q[2] | rnd_num/my_rsm/Q[0]           |                1 |              4 |         4.00 |
+|  c0/CLK                    |                     | rnd_num/my_rsm/Q[0]           |                1 |              5 |         5.00 |
+|  c1/CLK                    |                     | rnd_num/my_rsm/Q[0]           |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG             |                     | reset_IBUF                    |                2 |              5 |         2.50 |
+|  clk_divider/out           | rnd_num/my_rsm/Q[1] |                               |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG             | rnd_num/my_rsm/Q[0] |                               |                2 |              7 |         3.50 |
+|  clk_divider/clk_div_reg_0 |                     | clk_divider/count2[0]_i_1_n_0 |                5 |             17 |         3.40 |
+|  clk_IBUF_BUFG             |                     | clk_divider/clear             |                5 |             17 |         3.40 |
+|  rnd_num/my_rsm/Q[3]       |                     |                               |                8 |             19 |         2.38 |
+|  clk_IBUF_BUFG             |                     |                               |               17 |             39 |         2.29 |
++----------------------------+---------------------+-------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,202 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep  9 13:36:02 2021
+# Process ID: 16144
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2624 D:\Libraries\Documents\Vivado Projects\Lab 1\requirement_5\requirement_5.xpr
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_5/vivado.log
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_5/requirement_5.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_5/requirement_5.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Utility/Vivado/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:47 ; elapsed = 00:00:20 . Memory (MB): peak = 1451.422 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_1/requirement_1.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_1/requirement_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Utility/Vivado/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:16 . Memory (MB): peak = 1451.422 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_hw_manager
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_2/requirement_2.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_2/requirement_2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Utility/Vivado/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 1451.422 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_3/requirement_3.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_3/requirement_3.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Utility/Vivado/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 1451.422 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_4/requirement_4.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_4/requirement_4.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Utility/Vivado/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 1451.422 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 1/challenge_1/challenge_1.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Libraries/Documents/Vivado Projects/Lab 1/challenge_1/challenge_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Utility/Vivado/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1451.422 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Sep  9 13:41:38 2021] Launched synth_1...
+Run output will be captured here: D:/Libraries/Documents/Vivado Projects/Lab 1/challenge_1/challenge_1.runs/synth_1/runme.log
+[Thu Sep  9 13:41:39 2021] Launched impl_1...
+Run output will be captured here: D:/Libraries/Documents/Vivado Projects/Lab 1/challenge_1/challenge_1.runs/impl_1/runme.log
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887200000190A
+open_hw_target: Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 2773.539 ; gain = 1322.117
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_1/requirement_1.runs/impl_1/project1_demo.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1435] Device xc7z007s (JTAG device index = 1) is not programmed (DONE status = 0).
+current_project requirement_1
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_1/requirement_1.runs/impl_1/project1_demo.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_hw_manager: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2834.723 ; gain = 0.000
+close_project
+current_project requirement_2
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887200000190A
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_2/requirement_2.runs/impl_1/led_sw.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_2/requirement_2.runs/impl_1/led_sw.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+current_project requirement_3
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887200000190A
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_3/requirement_3.runs/impl_1/led_sw.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_3/requirement_3.runs/impl_1/led_sw.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+current_project requirement_2
+close_project
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3192.082 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.314 . Memory (MB): peak = 3784.555 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.353 . Memory (MB): peak = 3784.555 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3784.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:01:02 ; elapsed = 00:00:46 . Memory (MB): peak = 3927.312 ; gain = 1025.184
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887200000190A
+set_property PROGRAM.FILE {D:\Libraries\Documents\Vivado Projects\Lab 1\requirement_1\requirement_1.runs\impl_1\project1_demo.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_1/requirement_1.runs/impl_1/project1_demo.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_project
+current_project requirement_3
+close_project
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887200000190A
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_4/requirement_4.runs/impl_1/led_sw.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 1/requirement_4/requirement_4.runs/impl_1/led_sw.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  9 13:54:40 2021...

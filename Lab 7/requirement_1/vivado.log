@@ -1,0 +1,166 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 28 10:32:23 2021
+# Process ID: 11896
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13808 D:\Libraries\Documents\Vivado Projects\Lab 7\requirement_1\requirement_1.xpr
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/vivado.log
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Utility/Vivado/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1114.992 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'nand_latch_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Programs/Utility/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'nand_latch_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nand_latch_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.srcs/sources_1/new/nand_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.srcs/sim_1/new/nand_latch_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_latch_tb
+INFO: [VRFC 10-2458] undeclared symbol Q1, assumed default net type wire [D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.srcs/sim_1/new/nand_latch_tb.v:8]
+INFO: [VRFC 10-2458] undeclared symbol Q2, assumed default net type wire [D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.srcs/sim_1/new/nand_latch_tb.v:8]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.sim/sim_1/behav/xsim'
+"xelab -wto 9f4dbb5ce24c4c03a6f0d16f26588d41 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nand_latch_tb_behav xil_defaultlib.nand_latch_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Utility/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 9f4dbb5ce24c4c03a6f0d16f26588d41 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nand_latch_tb_behav xil_defaultlib.nand_latch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nand_latch
+Compiling module xil_defaultlib.nand_latch_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nand_latch_tb_behav
+
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source D:/Libraries/Documents/Vivado -notrace
+couldn't read file "D:/Libraries/Documents/Vivado": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Thu Oct 28 10:34:22 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 1114.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nand_latch_tb_behav -key {Behavioral:sim_1:Functional:nand_latch_tb} -tclbatch {nand_latch_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source nand_latch_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1114.992 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nand_latch_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:30 . Memory (MB): peak = 1114.992 ; gain = 0.000
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-10:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2021 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1114.992 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887200000190A
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 2703.023 ; gain = 1588.031
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1435] Device xc7z007s (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 7/Bitstreams/pipo_shifter.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 7/Bitstreams/piso_shifter.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 7/Bitstreams/sipo_shifter.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 8 Copy/Bitstreams/requirement_1.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 8 Copy/Bitstreams/req2.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 8 Copy/Bitstreams/single_seg.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2777.691 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 28 10:43:05 2021...

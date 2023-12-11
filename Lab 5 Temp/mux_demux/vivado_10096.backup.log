@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Oct  5 20:09:03 2021
+# Process ID: 10096
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 5/mux_demux
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2088 D:\Libraries\Documents\Vivado Projects\Lab 5\mux_demux\mux_demux.xpr
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 5/mux_demux/vivado.log
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 5/mux_demux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 5/mux_demux/mux_demux.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Libraries/Documents/Vivado Projects/Lab 4/mux_demux' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/Libraries/Documents/Vivado Projects/Lab 5/mux_demux/mux_demux.gen/sources_1', nor could it be found using path 'D:/Libraries/Documents/Vivado Projects/Lab 4/mux_demux/mux_demux.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2021.1/data/ip'.
+exit
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See D:/Libraries/Documents/Vivado Projects/Lab 5/mux_demux/vivado_pid10096.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  5 20:09:22 2021...

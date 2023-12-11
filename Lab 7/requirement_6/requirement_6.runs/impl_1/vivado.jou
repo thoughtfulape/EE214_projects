@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Oct 22 09:51:06 2021
+# Process ID: 752
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_6/requirement_6.runs/impl_1
+# Command line: vivado.exe -log sipo_shifter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sipo_shifter.tcl -notrace
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_6/requirement_6.runs/impl_1/sipo_shifter.vdi
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_6/requirement_6.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sipo_shifter.tcl -notrace

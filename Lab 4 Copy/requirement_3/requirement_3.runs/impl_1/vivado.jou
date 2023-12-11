@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Sep 29 18:32:59 2021
+# Process ID: 8372
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 4/requirement_3/requirement_3.runs/impl_1
+# Command line: vivado.exe -log decoder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder.tcl -notrace
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 4/requirement_3/requirement_3.runs/impl_1/decoder.vdi
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 4/requirement_3/requirement_3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source decoder.tcl -notrace

@@ -1,0 +1,8 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_1/requirement_1.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_1/requirement_1.srcs/sim_1/new/CLA_tb.v,1636011445,verilog,,,,CLA_tb,,,,,,,,
+D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_1/requirement_1.srcs/sources_1/new/CLA_4_bit.v,1636011421,verilog,,D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_1/requirement_1.srcs/sources_1/new/bit_slice.v,,CLA_4_bit,,,,,,,,
+D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_1/requirement_1.srcs/sources_1/new/bit_slice.v,1635908494,verilog,,D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_1/requirement_1.srcs/sim_1/new/CLA_tb.v,,bit_slice,,,,,,,,

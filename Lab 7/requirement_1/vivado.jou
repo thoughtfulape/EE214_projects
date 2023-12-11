@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 28 10:32:23 2021
+# Process ID: 11896
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13808 D:\Libraries\Documents\Vivado Projects\Lab 7\requirement_1\requirement_1.xpr
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/vivado.log
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_1/requirement_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source nand_latch_tb.tcl
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 7/Bitstreams/pipo_shifter.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 7/Bitstreams/piso_shifter.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 7/Bitstreams/sipo_shifter.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 8 Copy/Bitstreams/requirement_1.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 8 Copy/Bitstreams/req2.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {D:/Libraries/Documents/Vivado Projects/Lab 8 Copy/Bitstreams/single_seg.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+close_sim

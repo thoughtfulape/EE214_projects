@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Oct  6 21:30:54 2021
+# Process ID: 17492
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 5 Temp/challenge_1/challenge_1.runs/synth_1
+# Command line: vivado.exe -log challenge_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source challenge_1_wrapper.tcl
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 5 Temp/challenge_1/challenge_1.runs/synth_1/challenge_1_wrapper.vds
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 5 Temp/challenge_1/challenge_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source challenge_1_wrapper.tcl -notrace

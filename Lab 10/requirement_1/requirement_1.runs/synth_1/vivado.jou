@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Nov 10 13:41:44 2021
+# Process ID: 4356
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 10/requirement_1/requirement_1.runs/synth_1
+# Command line: vivado.exe -log alu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu.tcl
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 10/requirement_1/requirement_1.runs/synth_1/alu.vds
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 10/requirement_1/requirement_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source alu.tcl -notrace

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 12/I hate vivado/I hate vivado.srcs/sources_1/new/sw_debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sw_debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 12/I hate vivado/I hate vivado.srcs/sim_1/new/sw_debounce_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sw_debounce_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 12/I hate vivado/I hate vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

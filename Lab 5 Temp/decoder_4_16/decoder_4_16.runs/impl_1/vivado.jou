@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Oct 13 17:56:31 2021
+# Process ID: 10644
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 5 Temp/decoder_4_16/decoder_4_16.runs/impl_1
+# Command line: vivado.exe -log decoder_4_16.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_4_16.tcl -notrace
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 5 Temp/decoder_4_16/decoder_4_16.runs/impl_1/decoder_4_16.vdi
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 5 Temp/decoder_4_16/decoder_4_16.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source decoder_4_16.tcl -notrace

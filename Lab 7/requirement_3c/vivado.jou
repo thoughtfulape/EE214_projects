@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 28 10:36:59 2021
+# Process ID: 20816
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_3c
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3332 D:\Libraries\Documents\Vivado Projects\Lab 7\requirement_3c\requirement_3c.xpr
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_3c/vivado.log
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_3c\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_3c/requirement_3c.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source d_latch_tb.tcl
+close_sim

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Oct 27 18:15:23 2021
+# Process ID: 1536
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 8/requirement_1/requirement_1.runs/impl_1
+# Command line: vivado.exe -log clk_divider.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source clk_divider.tcl -notrace
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 8/requirement_1/requirement_1.runs/impl_1/clk_divider.vdi
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 8/requirement_1/requirement_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source clk_divider.tcl -notrace

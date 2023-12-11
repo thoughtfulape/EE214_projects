@@ -1,0 +1,16 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 522a83bf9d144f838a83ec0f99ef5078 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CLA_tb_behav xil_defaultlib.CLA_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'Cin' [D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_1/requirement_1.srcs/sources_1/new/CLA_4_bit.v:20]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bit_slice
+Compiling module xil_defaultlib.CLA_4_bit
+Compiling module xil_defaultlib.CLA_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CLA_tb_behav

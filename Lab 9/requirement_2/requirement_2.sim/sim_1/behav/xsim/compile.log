@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_2/requirement_2.srcs/sources_1/new/add_subtract.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_subtract
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 9/requirement_2/requirement_2.srcs/sim_1/new/add_subtract_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_subtract_tb

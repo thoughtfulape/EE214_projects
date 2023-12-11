@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1632378208">
+  <File Type="ROUTE-PWR" Name="temp_indicator_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="temp_indicator.tcl"/>
+  <File Type="BITSTR-MMI" Name="temp_indicator.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="temp_indicator_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="temp_indicator_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="temp_indicator_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="temp_indicator_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="temp_indicator_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="temp_indicator_opt.dcp"/>
+  <File Type="OPT-DRC" Name="temp_indicator_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="temp_indicator.hwdef"/>
+  <File Type="PWROPT-DCP" Name="temp_indicator_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="temp_indicator_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="temp_indicator_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="temp_indicator_placed.dcp"/>
+  <File Type="PLACE-IO" Name="temp_indicator_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="temp_indicator_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="temp_indicator_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="temp_indicator_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="temp_indicator_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="temp_indicator_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="temp_indicator_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="temp_indicator.bin"/>
+  <File Type="PLACE-TIMING" Name="temp_indicator_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="temp_indicator_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="temp_indicator.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="temp_indicator_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="temp_indicator_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="temp_indicator_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="temp_indicator.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="temp_indicator_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="temp_indicator_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="temp_indicator_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="temp_indicator_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="temp_indicator_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="temp_indicator_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="temp_indicator_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="temp_indicator_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="temp_indicator_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="temp_indicator_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="temp_indicator_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="temp_indicator_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="temp_indicator_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="temp_indicator_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="temp_indicator_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="temp_indicator_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="temp_indicator_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="temp_indicator_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="temp_indicator_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="temp_indicator_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="temp_indicator_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="temp_indicator_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="temp_indicator_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="temp_indicator_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="temp_indicator_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="temp_indicator_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="temp_indicator_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="temp_indicator.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="temp_indicator_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="temp_indicator_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="temp_indicator.nky"/>
+  <File Type="BITSTR-BMM" Name="temp_indicator_bd.bmm"/>
+  <File Type="PDI-FILE" Name="temp_indicator.pdi"/>
+  <File Type="RCFI_FILE" Name="temp_indicator.rcfi"/>
+  <File Type="CFI_FILE" Name="temp_indicator.cfi"/>
+  <File Type="RNPI_FILE" Name="temp_indicator.rnpi"/>
+  <File Type="NPI_FILE" Name="temp_indicator.npi"/>
+  <File Type="RBD_FILE" Name="temp_indicator.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="temp_indicator.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="temp_indicator.sysdef"/>
+  <File Type="BG-BGN" Name="temp_indicator.bgn"/>
+  <File Type="BG-DRC" Name="temp_indicator.drc"/>
+  <File Type="RDI-RDI" Name="temp_indicator.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/temp_indicator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="temp_indicator"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/req3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

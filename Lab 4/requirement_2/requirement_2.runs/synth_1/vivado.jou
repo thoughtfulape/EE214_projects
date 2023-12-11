@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Sep 29 17:39:46 2021
+# Process ID: 2740
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 4/requirement_2/requirement_2.runs/synth_1
+# Command line: vivado.exe -log requirement_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source requirement_2.tcl
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 4/requirement_2/requirement_2.runs/synth_1/requirement_2.vds
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 4/requirement_2/requirement_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source requirement_2.tcl -notrace

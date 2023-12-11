@@ -1,0 +1,8 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Utility/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 496b81d79d084a98809b8a26f71d3424 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot d_latch_tb_behav xil_defaultlib.d_latch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'Q2o' on this module [D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_3/requirement_3.srcs/sim_1/new/d_latch_tb.v:8]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Oct 27 21:45:20 2021
+# Process ID: 4716
+# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 8/requirement_4/requirement_4.runs/impl_1
+# Command line: vivado.exe -log single_seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source single_seg.tcl -notrace
+# Log file: D:/Libraries/Documents/Vivado Projects/Lab 8/requirement_4/requirement_4.runs/impl_1/single_seg.vdi
+# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 8/requirement_4/requirement_4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source single_seg.tcl -notrace

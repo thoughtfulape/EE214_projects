@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 3/requirement_2/requirement_2.srcs/sources_1/new/majority_of_five.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_of_five
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Libraries/Documents/Vivado Projects/Lab 3/requirement_2/requirement_2.srcs/sources_1/new/majority_of_five_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_of_five_tb
