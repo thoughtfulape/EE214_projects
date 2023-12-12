@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.runs/synth_1/pipo_shifter.tcl"
+  variable script "E:/GithubRepositorys/EE214_projects_GF/EE214_projects/Lab 7/requirement_4/requirement_4.runs/synth_1/pipo_shifter.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,25 +70,21 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache C:/Users/gfish/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18932-GaryPC/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z007sclg400-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.cache/wt} [current_project]
-set_property parent.project_path {D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.xpr} [current_project]
+set_property webtalk.parent_dir {E:/GithubRepositorys/EE214_projects_GF/EE214_projects/Lab 7/requirement_4/requirement_4.cache/wt} [current_project]
+set_property parent.project_path {E:/GithubRepositorys/EE214_projects_GF/EE214_projects/Lab 7/requirement_4/requirement_4.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {d:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.cache/ip} [current_project]
+set_property ip_output_repo {e:/GithubRepositorys/EE214_projects_GF/EE214_projects/Lab 7/requirement_4/requirement_4.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib {{D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.srcs/sources_1/new/pipo_shifter.v}}
+read_verilog -library xil_defaultlib {{E:/GithubRepositorys/EE214_projects_GF/EE214_projects/Lab 7/requirement_4/requirement_4.srcs/sources_1/new/pipo_shifter.v}}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -98,9 +94,6 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.srcs/constrs_1/new/req4.xdc}}
-set_property used_in_implementation false [get_files {{D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.srcs/constrs_1/new/req4.xdc}}]
-
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 

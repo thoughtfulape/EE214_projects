@@ -21,3 +21,9 @@ open_run synth_1 -name synth_1
 reset_run synth_1
 launch_runs synth_1 -jobs 8
 wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+open_run impl_1

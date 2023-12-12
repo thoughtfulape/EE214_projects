@@ -1,12 +1,14 @@
 #-----------------------------------------------------------
-# Vivado v2021.1 (64-bit)
-# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
-# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Thu Oct 21 23:05:13 2021
-# Process ID: 20008
-# Current directory: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.runs/synth_1
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Dec 11 15:10:06 2023
+# Process ID: 13124
+# Current directory: E:/GithubRepositorys/EE214_projects_GF/EE214_projects/Lab 7/requirement_4/requirement_4.runs/synth_1
 # Command line: vivado.exe -log pipo_shifter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pipo_shifter.tcl
-# Log file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.runs/synth_1/pipo_shifter.vds
-# Journal file: D:/Libraries/Documents/Vivado Projects/Lab 7/requirement_4/requirement_4.runs/synth_1\vivado.jou
+# Log file: E:/GithubRepositorys/EE214_projects_GF/EE214_projects/Lab 7/requirement_4/requirement_4.runs/synth_1/pipo_shifter.vds
+# Journal file: E:/GithubRepositorys/EE214_projects_GF/EE214_projects/Lab 7/requirement_4/requirement_4.runs/synth_1\vivado.jou
+# Running On: DESKTOP-B04BEDJ, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 16, Host memory: 17128 MB
 #-----------------------------------------------------------
 source pipo_shifter.tcl -notrace
